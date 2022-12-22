@@ -7,7 +7,8 @@
         }
         */
 
-string isimler = "Bilgisayar Programcılığı";
+
+/*string isimler = "Bilgisayar Programcılığı";
 
 for (int i = 0; i < isimler.Length; i++)
 {
@@ -16,7 +17,7 @@ for (int i = 0; i < isimler.Length; i++)
         Console.Write(isimler[j]);
     }
     Console.WriteLine();
-}
+} */
 
 
 /*
@@ -40,3 +41,46 @@ for (int i = 0; i < n; i++)
 */
 
 //Console.Write($"Dizinin 3. elamanı dizi[3] = {dizi[3]}");
+
+/*
+int[] dizi = {5,-1,0,10};
+int eb, ek, gecici;
+eb = ek = dizi[0];
+
+for(int i=0; i<dizi.Length; i++)
+{
+    if (dizi[i] > eb) eb = dizi[i];
+
+    if(dizi[i] < ek)  ek = dizi[i];
+
+    for(int j=0; j<dizi.Length; j++)
+    {
+        if(dizi[j] > dizi[i])
+        {
+            gecici = dizi[i];
+            dizi[i] = dizi[j];
+            dizi[j] = gecici;
+        }
+    }
+}
+
+foreach (var i in dizi)
+{
+    Console.Write(i+" ");
+}
+
+//dizi içinde ara
+
+
+for (int i = 0; i < dizi.Length; i++)
+{ 
+    if(5 == dizi[i])
+    {
+        Console.WriteLine("BULDUM !"+i+". numara"); break;
+    }
+}
+
+Console.WriteLine($"EB={eb}, EK={ek}"); 
+
+*/
+
