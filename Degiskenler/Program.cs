@@ -20,7 +20,7 @@ internal class Program
 
         //Örneğin iki tam sayının toplama örneği
         int a = 5, b;
-        // her birini ayrı ayrı da tanımlabilirsiniz.
+        // her birini ayrı ayrı da tanımlayabilirsiniz.
         // int a;
         // int b;
 
